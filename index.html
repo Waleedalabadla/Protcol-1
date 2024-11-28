@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> موقع خدماتي </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .landing {
+            background: #e2e2e2;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .cta-button {
+            background: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            border-radius: 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background: #35424a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>موقع خدماتي</h1>
+    <nav>
+        <a href="#landing">الرئيسية</a>
+        <a href="#services">الخدمات</a>
+        <a href="#contact">التواصل</a>
+    </nav>
+</header>
+
+<section class="landing" id="landing">
+    <h2>مرحبًا بكم في موقعنا</h2>
+    <p>نحن نقدم مجموعة متنوعة من الخدمات لمساعدتك في تحقيق أهدافك.</p>
+    <button class="cta-button">اشترك الآن</button>
+</section>
+
+<section class="cards" id="services">
+    <div class="card">
+        <h3>خدمة التصميم الجرافيكي</h3>
+        <p>نقدم خدمات التصميم الجرافيكي التي
+             تشمل إنشاء شعارات، وبطاقات عمل، وتصميمات إعلانات، 
+            والمحتوى الرقمي. فريقنا من 
+            المصممين المحترفين يستخدم أحدث البرامج
+             والتقنيات لتقديم تصاميم مبتكرة 
+            وجذابة تلبي احتياجات عملائنا
+             وتعبر عن هويتهم بشكل متمي</p>
+    </div>
+    <div class="card">
+        <h3> خدمة تطوير المواقع الإلكترونية</h3>
+        <p>نحن متخصصون في تطوير مواقع إلكترونية عالية الجودة 
+            تتناسب مع مختلف المجالات. سواء كنت بحاجة إلى
+             موقع شخصي، مدونة، أو موقع تجاري، فإننا نقدم حلولًا مخصصة تناسب 
+            احتياجاتك. نضمن لك تصميمًا
+             متجاوبًا وسهل الاستخدام مع تحسين محركات البحث 
+             (SEO) لزيادة الظهور على الإنترنت.
+
+        </p>
+    </div>
+    <div class="card">
+        <h3>خدمة التسويق الرقمي</h3>
+        <p>نقدم خدمات التسويق الرقمي المتكاملة التي تشمل إدارة الحملات 
+            الإعلانية عبر وسائل التواصل الاجتماعي، وتحسين محركات البحث 
+            (SEO)، والتسويق عبر البريد الإلكتروني. فريقنا يعمل 
+            على تطوير استراتيجيات فعالة لزيادة الوعي بالعلامة التجارية 
+            وجذب العملاء وزيادة المبيعات من خلال أساليب مبتكرة وموجهة.
+
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>تواصل معنا</h2>
+    <form>
+        <input type="text" placeholder="الاسم" required>
+        <input type="email" placeholder="البريد الإلكتروني" required>
+        <textarea placeholder="رسالتك" required></textarea>
+        <button type="submit">إرسال</button>
+    </form>
+</section>
+
+<footer>
+    <p>جميع الحقوق محفوظة &copy; 2024</p>
+    <p>تواصل معنا عبر: info@example.com</p>
+</footer>
+
+</body>
+</html>
